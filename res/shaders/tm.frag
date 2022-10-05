@@ -2,14 +2,15 @@
 
 out vec4 frag_color;
 
-in vec2 vert_coord;
+in vec2 tex_coord;
 
 uniform sampler2D tex;
 uniform sampler1D pal;
 
 void main()
 {
-	vec4 i = texture(tex, vert_coord);
-	vec4 cr = texture(pal, i.x);
-	frag_color = cr;
+	vec4 i;
+
+	i = texture(tex, tex_coord);
+	frag_color = texture(pal, i.x);
 }

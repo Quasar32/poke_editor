@@ -6,6 +6,8 @@ def Settings( **kwargs ):
         '-I',
         'lib/glfw/include',
         '-I',
-        'lib/glad/include'
+        'lib/glad/include',
+        '-I',
+        'lib/cglm/include'
     ],
   }
