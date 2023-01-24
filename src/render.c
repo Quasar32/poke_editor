@@ -1,3 +1,4 @@
+#include <glad/glad.h>
 #include <stdarg.h>
 #include <string.h>
 

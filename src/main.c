@@ -4,7 +4,6 @@
 
 #include <windows.h>
 
-#include <cglm/cglm.h>
 #include <glad/glad.h>
 #include <glfw/glfw3.h>
 

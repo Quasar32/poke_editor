@@ -2,7 +2,6 @@
 #define RENDER_H
 
 #include <cglm/cglm.h>
-#include <glad/glad.h>
 #include <stdint.h>
 
 #define TILE_MAP_LEN 32 
